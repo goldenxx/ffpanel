@@ -12,6 +12,9 @@ $zhibojian = 'http://www.huomao.com/outplayer/index/'.$room;
 $backgroundimg = true;
 ?>
 ```
+```bash
+php ip.php > /tmp/stats.json
+```
 crontab:
 ```bash
 * * * * * php /data/www/default/api_ff.php >>/tmp/ffmpeg.log
